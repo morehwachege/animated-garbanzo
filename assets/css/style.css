@@ -441,3 +441,31 @@ span i{
     color: #ED661F;
 }
 /* end testimonial section */
+
+/* start footer section */
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+}
+.keep-touch{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rebeccapurple;
+    gap: 30px;
+}
+.keep-touch h2{
+    font-size: 30px;
+    color: white;
+}
+.keep-touch p{
+    font-size: 16px;
+    color: white;
+}
+
+/* end footer section */
