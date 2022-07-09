@@ -447,7 +447,7 @@ span i{
 .footer{
     width: 100%;
     height: 70vh;
-    background-color: black;
+    background-color: white;
 }
 .keep-touch{
     width: 100%;
@@ -456,8 +456,9 @@ span i{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rebeccapurple;
+    background-color: black;
     gap: 30px;
+    margin-bottom: 10px;
 }
 .keep-touch h2{
     font-size: 30px;
@@ -467,5 +468,18 @@ span i{
     font-size: 16px;
     color: white;
 }
-
+.form-input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn-submit{
+    width: 150px;
+    height: 40px;
+    background-color: #ED661F;
+    color: white;
+    border: none;
+}
 /* end footer section */
