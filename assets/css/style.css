@@ -283,7 +283,7 @@ p.title {
     width: 90%;
     height: 100vh;
     /* background-color: red; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 
@@ -292,7 +292,6 @@ p.title {
 .first-col{
     width: 100%;
     height: auto;
-    background-color: green;
 }
 .first-col h2{
     font-size: 30px;
@@ -300,6 +299,9 @@ p.title {
 }
 .images{
     display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 30px;
 
 }
 .image-card{
@@ -307,9 +309,19 @@ p.title {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    padding: 30px 0 30px 0;
+
 }
 .image-card img{
     width: 200px;
-    height: 200px;
+    height: auto;
+    border-radius: 3px;
+    margin-bottom: 5px;
+
+}
+.image-card p{
+    font-size: 14px;
+    margin: 5px 0 5px 0;
 }
 /* end products */
