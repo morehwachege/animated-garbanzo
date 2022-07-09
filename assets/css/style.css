@@ -510,7 +510,7 @@ span i{
 .company{
     flex-grow: 2;
     width: 100%;
-    height: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -609,6 +609,39 @@ span i{
         grid-template-columns: auto auto ;
         grid-template-rows: auto auto auto auto;
         gap: 30px;
+    
+    }
+    .test-inner{
+        flex-direction: column;
+    }
+    .mini-about {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    /* .testimonial{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    } */
+    .footer-bottom{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        /* flex-flow: row wrap; */
     
     }
 }
