@@ -204,6 +204,11 @@ button.explore:hover{
     font-size: 18px;
     line-height: 35px;
 }
+.mini-container .hr{
+    width: 25%;
+    height: 3px;
+    background-color: #ED661F;
+}
 .mini-right{
     width: 100%;
     height: auto;
@@ -214,3 +219,7 @@ button.explore:hover{
 }
 
 /* end mini about */
+
+/* start products */
+
+/* end products */
