@@ -286,16 +286,30 @@ p.title {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+
+
+}
+.first-col{
+    width: 100%;
+    height: auto;
+    background-color: green;
+}
+.first-col h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.images{
+    display: grid;
+
+}
+.image-card{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-
-
+    align-items: center;
 }
-.most-popular h2{
-    margin-right: auto;
+.image-card img{
+    width: 200px;
+    height: 200px;
 }
-.most-popular h2.popular{
-    font-size: 25px;
-}
-
 /* end products */
