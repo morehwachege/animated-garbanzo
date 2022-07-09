@@ -482,4 +482,24 @@ span i{
     color: white;
     border: none;
 }
+
+.footer-bottom{
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+
+}
+.footer-bottom .brand{
+
+}
+.brand, .details{
+    width: 100%;
+    height: 40vh;
+}
+.brand{
+    background-color: lime;
+}
 /* end footer section */
