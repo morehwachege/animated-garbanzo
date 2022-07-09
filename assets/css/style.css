@@ -258,6 +258,7 @@ button.explore:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 300px;
 }
 
 .title {
@@ -329,5 +330,32 @@ p.title {
 .image-card p{
     font-size: 14px;
     margin: 5px 0 5px 0;
+}
+.see{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.see .redmon{
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    float: right;
+    font-size: 30px;
+    /* background-color: red; */
+    
+}
+.see hr{
+    width: 6%;
+    height: 3px;
+    background-color: #ED661F;
+    border: none;
+    float: right;
+    bottom: 0;
 }
 /* end products */
