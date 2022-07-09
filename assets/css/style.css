@@ -31,7 +31,7 @@ nav.nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+
     /* color: white; */
 }
 
@@ -42,44 +42,52 @@ nav.nav {
 
 .nav ul li {
     list-style: none;
-    
+
 }
-.nav ul li a{
-    text-decoration: none;   
+
+.nav ul li a {
+    text-decoration: none;
     color: white;
 }
-.nav ul li a:hover{  
+
+.nav ul li a:hover {
     border-bottom: 3px solid #ED661F;
     transition: .2s ease;
 }
-.active a{
+
+.active a {
     border-bottom: 3px solid #ED661F;
 }
-.call-action{
+
+.call-action {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.call-action a{
+
+.call-action a {
     font-size: inherit;
     color: white;
     text-decoration: none;
     /* padding-bottom: 5px; */
-    
+
 }
-.call-action a:hover{
+
+.call-action a:hover {
     border-bottom: 3px solid #ED661F;
     transition: .2s ease;
 }
-.call-action button{
-    background-color:  #ED661F;
+
+.call-action button {
+    background-color: #ED661F;
     width: 130px;
     height: 50px;
     border: none;
     border-radius: 4px;
 }
-.call-action button.get-started:hover{
-    border:  2px solid #ED661F;
+
+.call-action button.get-started:hover {
+    border: 2px solid #ED661F;
     background-color: black;
     color: white;
     transition: .2s ease;
@@ -87,13 +95,14 @@ nav.nav {
 
 /* start hero section */
 
-.hero-section{
+.hero-section {
     width: 100%;
     height: 90vh;
     /* background-color: #ED661F; */
     margin-top: 100px;
 }
-.container{
+
+.container {
     /* margin-top: 100px; */
     background-color: black !important;
     width: 100%;
@@ -107,39 +116,48 @@ nav.nav {
     justify-content: center;
     align-items: center;
 }
-.hero-right, .hero-left{
+
+.hero-right,
+.hero-left {
     width: 100%;
     height: 100%;
 }
-.hero-right{
+
+.hero-right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-right img{
+
+.hero-right img {
     width: 80%;
     height: auto;
 }
-.hero-left{
+
+.hero-left {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.hero-inner-left{
+
+.hero-inner-left {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.hero-inner-left h1{
+
+.hero-inner-left h1 {
     font-size: 40px;
     font-weight: 700;
 }
-.hero-inner-left p{
+
+.hero-inner-left p {
     font-size: 18px;
 }
-.explore{
+
+.explore {
     width: 150px;
     height: 50px;
     border-radius: 2px;
@@ -149,18 +167,21 @@ nav.nav {
     font-weight: 700;
     font-size: 18px;
 }
-button.explore:hover{
+
+button.explore:hover {
     background-color: black;
     transition: .3s ease;
     border-radius: 0 20px 0 20px;
 }
-.hero-bottom{
+
+.hero-bottom {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
-.hero-bottom-box{
+
+.hero-bottom-box {
     width: 50%;
     height: 150px;
     background-color: white;
@@ -175,10 +196,11 @@ button.explore:hover{
     padding: 0 50px 0 50px;
 
 }
+
 /* end hero section */
 
 /* start mini about */
-.mini-about{
+.mini-about {
     width: 100%;
     height: 80vh;
     /* background-color: red; */
@@ -187,34 +209,41 @@ button.explore:hover{
     align-items: center;
     margin-top: 100px;
 }
-.mini-left{
+
+.mini-left {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
-.mini-container{
+
+.mini-container {
     width: 70%;
 }
-.mini-container h2{
+
+.mini-container h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.mini-container p{
+
+.mini-container p {
     font-size: 18px;
     line-height: 35px;
 }
-.mini-container .hr{
+
+.mini-container .hr {
     width: 20%;
     height: 3px;
     background-color: #ED661F;
     border: none;
 }
-.mini-right{
+
+.mini-right {
     width: 100%;
     height: auto;
 }
-.mini-right img{
+
+.mini-right img {
     width: 70%;
     height: auto;
 }
@@ -222,9 +251,51 @@ button.explore:hover{
 /* end mini about */
 
 /* start products */
-h2.title{
+.products {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h2.title {
     text-align: center;
     text-transform: capitalize;
     font-size: 30px;
 }
+
+p.title {
+    text-align: center;
+    font-size: 18px;
+}
+
+.most-popular {
+    margin-top: 30px;
+    width: 90%;
+    height: 100vh;
+    /* background-color: red; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
+.most-popular h2{
+    margin-right: auto;
+}
+.most-popular h2.popular{
+    font-size: 25px;
+}
+
 /* end products */
