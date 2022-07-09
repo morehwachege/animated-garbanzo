@@ -176,3 +176,41 @@ button.explore:hover{
 
 }
 /* end hero section */
+
+/* start mini about */
+.mini-about{
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.mini-left{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.mini-container{
+    width: 70%;
+}
+.mini-container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.mini-container p{
+    font-size: 18px;
+    line-height: 35px;
+}
+.mini-right{
+    width: 100%;
+    height: auto;
+}
+.mini-right img{
+    width: 70%;
+    height: auto;
+}
+
+/* end mini about */
