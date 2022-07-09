@@ -516,5 +516,12 @@ span i{
 .company h2{
     font-size: 22px;
 }
+.company ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.company ul li{
+    padding: 5px;
+}
 
 /* end footer section */
