@@ -1,5 +1,3 @@
-# animated-garbanzo
-Agricultural material website template
 # AgriPlus
 #### Web application template to showcase products and services in the Agri-business world.
 #### By Muriithi A. Gakuru
