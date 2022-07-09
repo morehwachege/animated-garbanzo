@@ -486,10 +486,12 @@ span i{
 .footer-bottom{
     width: 100%;
     height: 40vh;
-    background-color: red;
+    background-color: black;
+    color: white;
     display: flex;
     justify-items: center;
     align-items: center;
+    /* flex-flow: row wrap; */
 
 }
 .footer-bottom .brand{
@@ -499,13 +501,15 @@ span i{
     align-items: center;
     width: 100%;
     height: 40vh;
-    background-color: lime;
+    /* background-color: black; */
+    color: white;
 }
 
 .brand .icons{
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 .company{
+    flex-grow: 2;
     width: 100%;
     height: 40vh;
     display: flex;
@@ -523,5 +527,9 @@ span i{
 .company ul li{
     padding: 5px;
 }
-
+.copy{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 /* end footer section */
