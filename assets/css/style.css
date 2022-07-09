@@ -197,7 +197,7 @@ button.explore:hover{
     width: 70%;
 }
 .mini-container h2{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 .mini-container p{
@@ -205,9 +205,10 @@ button.explore:hover{
     line-height: 35px;
 }
 .mini-container .hr{
-    width: 25%;
+    width: 20%;
     height: 3px;
     background-color: #ED661F;
+    border: none;
 }
 .mini-right{
     width: 100%;
@@ -221,5 +222,9 @@ button.explore:hover{
 /* end mini about */
 
 /* start products */
-
+h2.title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
 /* end products */
