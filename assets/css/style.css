@@ -105,7 +105,7 @@ nav.nav {
     /* margin-top: 100px; */
     background-color: black !important;
     width: 100%;
-    height: 100%;
+    height: 90vh;
     background-image: url(../images/image\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -178,6 +178,7 @@ button.explore:hover {
     height: auto;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .hero-bottom-box {
@@ -201,7 +202,7 @@ button.explore:hover {
 /* start mini about */
 .mini-about {
     width: 100%;
-    height: 80vh;
+    height: auto;
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -594,6 +595,9 @@ span i{
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    .call-action{
+        display: none;
+    }
     .nav ul li a {
         text-decoration: none;
         color: black;
@@ -606,7 +610,7 @@ span i{
     }
     .images{
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
         gap: 30px;
     
@@ -644,4 +648,28 @@ span i{
         /* flex-flow: row wrap; */
     
     }
+    .mini-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mini-right img {
+        width: 500px;
+        height: auto;
+    }
+    .hero-bottom{
+        background-color: white;
+    }
+    .hero-bottom-box {
+        width: 30%;
+        height: auto;
+        margin-top: -50px;
+        border-radius: 5px;
+        margin-bottom: 100px;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    
+    }
+    
 }
