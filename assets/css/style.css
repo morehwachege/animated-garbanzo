@@ -207,7 +207,7 @@ button.explore:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
 }
 
 .mini-left {
@@ -533,7 +533,7 @@ span i{
     color: rgb(153, 153, 153);
     text-align: center;
     font-weight: 400;
-    
+    padding: 30px 0 30px 0;
 }
 
 /* end footer section */
@@ -731,6 +731,7 @@ span i{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
+        /* grid-template-columns: repeat(auto-fill, minmax(186px, auto auto)); */
         gap: 30px;
     
     }
@@ -784,7 +785,7 @@ span i{
         height: auto;
         margin-top: -50px;
         border-radius: 5px;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         flex-direction: column;
         padding: 30px;
         gap: 30px;
