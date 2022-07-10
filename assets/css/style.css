@@ -608,6 +608,7 @@ span i{
         width: 100%;
         height: auto;
         flex-direction: column;
+        padding-top: 100px;
     }
     .images{
         width: 100%;
@@ -672,6 +673,11 @@ span i{
         flex-direction: column;
         padding: 30px;
         gap: 30px;
+    
+    }
+    .image-card img{
+        width: 300px;
+        height: auto;
     
     }
     
